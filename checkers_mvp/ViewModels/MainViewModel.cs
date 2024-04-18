@@ -151,12 +151,14 @@ namespace checkers_mvp.ViewModels
 
         public void loadGame(object obj)
         {
-            gameView.loadGame();
-            Page = gameView;
+            if(gameView.loadGame())
+            {
+                Page = gameView;
 
-            if (isMenuExpanded)
-            { 
-              shrinkMenu(obj as Storyboard);
+                if (isMenuExpanded)
+                {
+                    shrinkMenu(obj as Storyboard);
+                }
             }
         }
 

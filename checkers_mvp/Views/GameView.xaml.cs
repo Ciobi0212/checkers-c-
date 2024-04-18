@@ -44,24 +44,24 @@ namespace checkers_mvp.Views
 
             fileDialog.FileName = "CheckersSave" + time;
             fileDialog.DefaultExt = ".json";
-            fileDialog.Filter = "JSON files (.json)|*.json";
+            fileDialog.Filter = "JSON files (*.json)|*.json";
 
             DialogResult result = fileDialog.ShowDialog();
 
             string path = fileDialog.InitialDirectory + fileDialog.FileName;
 
-            if (result == DialogResult.OK)
+            if (result == DialogResult.Yes)
             {
                 gameViewModel.saveGame(path);
             }
         }
 
-        public void loadGame()
+        public bool loadGame()
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
 
             fileDialog.DefaultExt = ".json";
-            fileDialog.Filter = "JSON files (.json)|*.json";
+            fileDialog.Filter = "JSON files (*.json)|*.json";
             fileDialog.RestoreDirectory = true;
 
             DialogResult result = fileDialog.ShowDialog();
@@ -71,7 +71,10 @@ namespace checkers_mvp.Views
             if (result == DialogResult.OK)
             {
                 gameViewModel.loadGame(path);
+                return true;
             }
+
+            return false;
         }
 
         //public void newGame()
