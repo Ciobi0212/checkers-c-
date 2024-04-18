@@ -7,31 +7,35 @@
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|E:\\repos\\checkers-csharp\\checkers_mvp\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\views\\winningstatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\winningstats\\winningstats.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\winningstats\\winningstats.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|E:\\repos\\checkers-csharp\\checkers_mvp\\views\\winningstatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\views\\winningstatsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|E:\\repos\\checkers-csharp\\checkers_mvp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|E:\\repos\\checkers-csharp\\checkers_mvp\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\viewmodels\\cellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|E:\\repos\\checkers-csharp\\checkers_mvp\\viewmodels\\cellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\viewmodels\\cellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\misc\\winningstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|E:\\repos\\checkers-csharp\\checkers_mvp\\misc\\winningstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\misc\\winningstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|e:\\repos\\checkers-csharp\\checkers_mvp\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|E:\\repos\\checkers-csharp\\checkers_mvp\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{080943A6-8C9B-4331-845E-AD3ABA5FD0C8}|checkers_mvp\\checkers_mvp.csproj|solutionrelative:checkers_mvp\\views\\gameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "WinningStats.json",
+              "DocumentMoniker": "E:\\repos\\checkers-csharp\\checkers_mvp\\WinningStats\\WinningStats.json",
+              "RelativeDocumentMoniker": "checkers_mvp\\WinningStats\\WinningStats.json",
+              "ToolTip": "E:\\repos\\checkers-csharp\\checkers_mvp\\WinningStats\\WinningStats.json",
+              "RelativeToolTip": "checkers_mvp\\WinningStats\\WinningStats.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T16:02:57.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CellViewModel.cs",
               "DocumentMoniker": "E:\\repos\\checkers-csharp\\checkers_mvp\\ViewModels\\CellViewModel.cs",
               "RelativeDocumentMoniker": "checkers_mvp\\ViewModels\\CellViewModel.cs",
@@ -54,8 +71,7 @@
               "RelativeToolTip": "checkers_mvp\\ViewModels\\CellViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T15:59:00.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T15:59:00.615Z"
             },
             {
               "$type": "Document",
@@ -83,19 +99,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WinningStatsView.xaml",
               "DocumentMoniker": "E:\\repos\\checkers-csharp\\checkers_mvp\\Views\\WinningStatsView.xaml",
               "RelativeDocumentMoniker": "checkers_mvp\\Views\\WinningStatsView.xaml",
               "ToolTip": "E:\\repos\\checkers-csharp\\checkers_mvp\\Views\\WinningStatsView.xaml",
               "RelativeToolTip": "checkers_mvp\\Views\\WinningStatsView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T15:58:30.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T15:58:30.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WinningStats.cs",
               "DocumentMoniker": "E:\\repos\\checkers-csharp\\checkers_mvp\\Misc\\WinningStats.cs",
               "RelativeDocumentMoniker": "checkers_mvp\\Misc\\WinningStats.cs",
@@ -103,12 +118,11 @@
               "RelativeToolTip": "checkers_mvp\\Misc\\WinningStats.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T15:57:57.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T15:57:57.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GameView.xaml.cs",
               "DocumentMoniker": "E:\\repos\\checkers-csharp\\checkers_mvp\\Views\\GameView.xaml.cs",
               "RelativeDocumentMoniker": "checkers_mvp\\Views\\GameView.xaml.cs",
@@ -116,12 +130,11 @@
               "RelativeToolTip": "checkers_mvp\\Views\\GameView.xaml.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAAAEYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T15:50:59.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T15:50:59.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "E:\\repos\\checkers-csharp\\checkers_mvp\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "checkers_mvp\\ViewModels\\MainViewModel.cs",
@@ -129,12 +142,11 @@
               "RelativeToolTip": "checkers_mvp\\ViewModels\\MainViewModel.cs",
               "ViewState": "AQIAAJEAAAAAAAAAAAAcwKEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T15:50:36.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T15:50:36.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GameViewModel.cs",
               "DocumentMoniker": "E:\\repos\\checkers-csharp\\checkers_mvp\\ViewModels\\GameViewModel.cs",
               "RelativeDocumentMoniker": "checkers_mvp\\ViewModels\\GameViewModel.cs",
@@ -142,8 +154,7 @@
               "RelativeToolTip": "checkers_mvp\\ViewModels\\GameViewModel.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T15:50:33.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T15:50:33.44Z"
             }
           ]
         }

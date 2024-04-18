@@ -40,7 +40,7 @@
         </Border>
         <Grid x:Name="BoardGrid" MouseLeftButtonDown="BoardGrid_MouseLeftButtonDown">
             <Grid.Background>
-                <ImageBrush ImageSource="E:\Facultate-Anu-2-Sem-1\MVP\Tema 2\checkers_mvp\checkers_mvp\Images\background.png"></ImageBrush>
+                <ImageBrush ImageSource="\Images\background.png"></ImageBrush>
             </Grid.Background>
             <ItemsControl ItemsSource="{Binding Cells}">
                 <ItemsControl.ItemTemplate>
