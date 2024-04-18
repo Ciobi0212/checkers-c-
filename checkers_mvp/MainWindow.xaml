@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:checkers_mvp"
         xmlns:view="clr-namespace:checkers_mvp.Views"
         mc:Ignorable="d"
-        Title="Checkers" Height="840" Width="990">
+        Title="Checkers" Height="900" Width="990">
 
     <Window.Resources>
         <Storyboard x:Name="storyBoardShrink" x:Key="SlideOutFromRight">

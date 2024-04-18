@@ -73,7 +73,7 @@ namespace checkers_mvp.ViewModels
             AMJCommand = new RelayCommand(AMJClick, (object obj) => { return true; });
             StatsCommand = new RelayCommand(StatsClick, (object obj) => { return true; });
 
-            BoardsHeight = 750;
+            BoardsHeight = 880;
             BoardsWidth = 800;
 
             HomeHeight = 800;
@@ -89,14 +89,14 @@ namespace checkers_mvp.ViewModels
             storyboardShrink.Begin();
             isMenuExpanded = false;
             BoardsWidth = 920;
-            BoardsHeight = 750;
+            BoardsHeight = 810;
             gameView.gameInfo.Visibility = Visibility.Visible;
         }
 
         public void expandMenu(Storyboard storyboardExpand)
         {
             BoardsWidth = 800;
-            BoardsHeight = 850;
+           BoardsHeight = 880;
 
             gameView.gameInfo.Visibility = Visibility.Collapsed;
 
