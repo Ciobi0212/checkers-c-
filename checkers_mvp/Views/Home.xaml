@@ -1,0 +1,18 @@
+﻿<Page x:Class="checkers_mvp.Views.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:checkers_mvp.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Home">
+
+    <Grid x:Name="homeGrid" Background="White">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+          <Image Source="../Images/welcome.png" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" />
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="48" Text="Welcome to Checkers!"/>
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="24" FontWeight="Bold" Text="Made by Ciobanu Andrei" Margin="10"/>
+       </StackPanel>
+    </Grid>
+</Page>

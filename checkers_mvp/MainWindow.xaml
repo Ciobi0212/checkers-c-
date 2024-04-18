@@ -1,0 +1,82 @@
+﻿<Window x:Class="checkers_mvp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:checkers_mvp"
+        xmlns:view="clr-namespace:checkers_mvp.Views"
+        mc:Ignorable="d"
+        Title="Checkers" Height="840" Width="990">
+
+    <Window.Resources>
+        <Storyboard x:Name="storyBoardShrink" x:Key="SlideOutFromRight">
+            <DoubleAnimation x:Name="menuShrink" Storyboard.TargetName="MenuStack" Storyboard.TargetProperty="Width" From="170" To="60" Duration="0:0:0.5" />
+            <DoubleAnimation x:Name="displayFrameLarger" Storyboard.TargetName="displayFrame" Storyboard.TargetProperty="Width" From="800" To="920" Duration="0:0:0.5"></DoubleAnimation>
+        </Storyboard>
+
+        <Storyboard x:Name="storyBoardLarge" x:Key="SlideInFromRight">
+            <DoubleAnimation x:Name="menuExpand" Storyboard.TargetName="MenuStack" Storyboard.TargetProperty="Width" From="50" To="170" Duration="0:0:0.2" />
+            <DoubleAnimation x:Name="displayFrameSmaller" Storyboard.TargetName="displayFrame" Storyboard.TargetProperty="Width" From="920" To="800" Duration="0:0:0.2"></DoubleAnimation>
+        </Storyboard>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True" >
+        <Border BorderBrush="Red"  BorderThickness="0 0 4 0">
+            <StackPanel x:Name="MenuStack" DockPanel.Dock="Left" Width="170" Background="Black">
+                <Button x:Name="btnMenu" Command="{Binding MenuCommand}" Width="30" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Black" Margin="10 10 0 50">
+                    <Image Source="C:\Users\cioba\Desktop\a.png"></Image>
+                </Button>
+
+                <Button Command="{Binding HomeCommand}" Margin="0 30 10 10" Height="35" FontSize="20" BorderBrush="Black" Background="Black" Foreground="White" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/home.png" Width="50" Height="30"></Image>
+                        <TextBlock Text="Home"></TextBlock>
+                    </StackPanel>
+                </Button>
+
+                <Button Command="{Binding NewGameCommand}" CommandParameter="{StaticResource ResourceKey=SlideOutFromRight}" Margin="0 30 10 10" Height="35" FontSize="20" BorderBrush="Black" Background="Black" Foreground="White" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/newgame.png" Width="50" Height="30"></Image>
+                        <TextBlock Text="New game"></TextBlock>
+                    </StackPanel>
+                </Button>
+
+
+
+                <Button Command="{Binding LoadGameCommand}" CommandParameter="{StaticResource ResourceKey=SlideOutFromRight}"  Height="35" FontSize="20" Margin="0 30 10 10" BorderBrush="Black" Background="Black" Foreground="White" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/loadgame.png" Width="50" Height="30"></Image>
+                        <TextBlock Text="Load game"></TextBlock>
+                    </StackPanel>
+                </Button>
+
+                <Button Command="{Binding SaveGameCommand}" Height="35" FontSize="20" Margin="0 30 10 10"  BorderBrush="Black" Background="Black" Foreground="White" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/savegame.png" Width="50" Height="30"></Image>
+                        <TextBlock Text="Save game"></TextBlock>
+                    </StackPanel>
+                </Button>
+                <!--<Button Content="Settings" Click="Settings_Click"  Height="35" FontSize="20" Margin="0 0 0 10"  BorderBrush="Black" Background="Black" Foreground="White"></Button>
+            <Button Content="Exit" Click="Exit_Click" Height="35" FontSize="20" Margin="0 0 0 10"  BorderBrush="Black" Background="Black" Foreground="White"></Button>-->
+                <ToggleButton Command="{Binding AMJCommand}" Height="35" FontSize="20" Margin="0 30 10 10"  BorderBrush="Black" Background="Black" Foreground="White" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+
+                        <Image Source="/Images/jump.png" Width="50" Height="30"></Image>
+                        <TextBlock Text="MultJump"></TextBlock>
+
+                    </StackPanel>
+                </ToggleButton>
+                
+                <Button Command="{Binding StatsCommand}" Height="35" FontSize="20" Margin="0 30 10 10"  BorderBrush="Black" Background="Black" Foreground="White" HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="Images/stats.png" Width="50" Height="30"></Image>
+                        <TextBlock Text="Stats"></TextBlock>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </Border>
+
+        <Frame x:Name="displayFrame" Content="{Binding Page}" DockPanel.Dock="Right" Background="White" NavigationUIVisibility="Hidden"></Frame>
+    </DockPanel>
+
+</Window>

@@ -1,0 +1,30 @@
+﻿<Page x:Class="checkers_mvp.Views.WinningStatsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:checkers_mvp.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="800"
+      Title="WinningStatsView">
+
+    <StackPanel Background="White" Orientation="Vertical">
+        <StackPanel Orientation="Vertical" Background="White" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Image Source="../Images/redaxe.png" Width="200" Height="200"></Image>
+            <Label Content="Red wins: " Foreground="Red" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"></Label>
+            <Label Content="{Binding RedWins}" Foreground="Red" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"></Label>
+            <Label Content="Red most pieces after win: " Foreground="Red" FontSize="20" FontWeight="Bold"></Label>
+            <Label Content="{Binding RedMostPieces}" Foreground="Red" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"></Label>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Margin="0 100 0 0" Background="White" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Image Source="../Images/blackaxe.png" Width="200" Height="200"></Image>
+            <Label Content="Black wins: " Foreground="Black" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"></Label>
+            <Label Content="{Binding BlackWins}" Foreground="Black" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"></Label>
+            <Label Content="Black most pieces after win: " Foreground="Black" FontSize="20" FontWeight="Bold"></Label>
+            <Label Content="{Binding BlackMostPieces}" Foreground="Black" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"></Label>
+        </StackPanel>
+    </StackPanel>
+
+    
+</Page>
